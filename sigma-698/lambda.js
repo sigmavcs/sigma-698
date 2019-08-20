@@ -1,4 +1,4 @@
-exports.handler = function(event, context, callback) {
+exports.handler = function (event, context, callback) {
     // user 2
-    callback(null, {"message": "Successfully executed"});
+    callback(null, { "message": "Successfully executed" });
 }
