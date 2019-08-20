@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "07c48c32-54a8-42f5-9c58-8b58f2312d48": {
+        "id": "07c48c32-54a8-42f5-9c58-8b58f2312d48",
+        "parent": null,
+        "name": "sigma-698",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "a7491d2b-16b2-49c2-b106-395e3e300f12"
+        ],
+        "isRemovable": false,
+        "filePath": "sigma-698"
+      },
+      "a7491d2b-16b2-49c2-b106-395e3e300f12": {
+        "id": "a7491d2b-16b2-49c2-b106-395e3e300f12",
+        "parent": "07c48c32-54a8-42f5-9c58-8b58f2312d48",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "sigma-698/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "07c48c32-54a8-42f5-9c58-8b58f2312d48",
+    "openFiles": [
+      "a7491d2b-16b2-49c2-b106-395e3e300f12"
+    ],
+    "currentFileId": "a7491d2b-16b2-49c2-b106-395e3e300f12",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "sigma-698",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1566298568467
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "sigma-698",
+      "url": "https://github.com/sigmavcs/sigma-698"
+    }
+  }
+}
